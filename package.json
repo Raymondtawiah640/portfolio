@@ -9,8 +9,11 @@
     "test": "ng test"
   },
   "prettier": {
+<<<<<<< HEAD
     "printWidth": 100,
     "singleQuote": true,
+=======
+>>>>>>> c3704f358ee1d84d19d02f45d033e4f973b95e30
     "overrides": [
       {
         "files": "*.html",
@@ -21,6 +24,7 @@
     ]
   },
   "private": true,
+<<<<<<< HEAD
   "packageManager": "npm@11.4.1",
   "dependencies": {
     "@angular/common": "^21.0.0",
@@ -42,5 +46,30 @@
     "tailwindcss": "^4.1.12",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
+=======
+  "dependencies": {
+    "@angular/common": "^20.0.0",
+    "@angular/compiler": "^20.0.0",
+    "@angular/core": "^20.0.0",
+    "@angular/forms": "^20.0.0",
+    "@angular/platform-browser": "^20.0.0",
+    "@angular/router": "^20.0.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^20.0.4",
+    "@angular/cli": "^20.0.4",
+    "@angular/compiler-cli": "^20.0.0",
+    "@types/jasmine": "~5.1.0",
+    "jasmine-core": "~5.7.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.8.2"
+>>>>>>> c3704f358ee1d84d19d02f45d033e4f973b95e30
   }
 }

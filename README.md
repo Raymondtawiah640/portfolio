@@ -1,6 +1,10 @@
 # Portfolio
 
+<<<<<<< HEAD
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
+=======
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.4.
+>>>>>>> c3704f358ee1d84d19d02f45d033e4f973b95e30
 
 ## Development server
 
@@ -38,7 +42,11 @@ This will compile your project and store the build artifacts in the `dist/` dire
 
 ## Running unit tests
 
+<<<<<<< HEAD
 To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+=======
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+>>>>>>> c3704f358ee1d84d19d02f45d033e4f973b95e30
 
 ```bash
 ng test
